@@ -1,0 +1,37 @@
+Q0:
+
+Q1:
+Flask is more flexible and more bare bones with less features out of the box.
+Djano enforces specific project structure and follows the MVC pattern and makes
+it faster to get started.
+
+Q2:
+REST stands for representational state transfer. RESTful means a system or 
+service that follows a set of contraints practices that are stateless, have a 
+uniform interface, and have client-server architecture.
+
+Q3:
+CRUD stands for create, read, update and delete. 
+Create: POST
+Read: GET
+Update: PATCH or PUT
+Delete: DELETE
+
+Q4:
+1XX: Informational response, request recieved, continuing process
+2XX: Succesfully recieved
+3XX: Redirection, further action needs to be taken
+4XX: Client side error
+5XX: Server side error
+
+Q5:
+XSS attacks are injection attacks, where malicious scripts get injected into
+websites. One way a site can be vulnerable to an XSS attack is through
+unvalidated or unsanitzed user input.
+
+Q6:
+CORS stands for Cross-Origin Resource Sharing. It is a security feature in websites
+browsers that controls how web pages from one domain can request and access 
+resources from another domain. Some situations you will need to implement CORS
+protection are API requests, third-party integration, and cookies and 
+authentication.
